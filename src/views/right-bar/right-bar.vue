@@ -1,12 +1,24 @@
 <template>
     <div class="right-bar">
-        오른쪽
+        <Section>
+            section1
+        </Section>
+
+        <Section>
+            section2
+        </Section>
     </div>
 </template>
 
 <script>
+import Section from '@/views/common/section'
+
 export default {
-    name: 'rightBar'
+    name: 'rightBar',
+
+    components: {
+        Section
+    }
 }
 </script>
 
