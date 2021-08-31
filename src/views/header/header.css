@@ -1,0 +1,59 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(94, 94, 94);
+    margin-bottom: 20px;
+}
+
+.header .title{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.header .btn-grp {
+    display: flex;
+    gap: 10px;
+}
+
+.header .btn-grp svg {
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    transition: all 0.8s ease;
+}
+
+.header .btn-grp svg:hover {
+    background-color: #798bc4;
+    color: white;
+}
+
+.header .btn-grp .search-input {
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.header .btn-grp .search-input:hover {
+    background-color: white;
+}
+
+.header .btn-grp .search-input input {
+    border-radius: 20px 0px 0px 20px;
+    padding: 0px;
+    height: 30px;
+    width: 0px;
+    border: none;
+    transition: all 0.8s ease;
+}
+
+.header .btn-grp .search-input:hover input {
+    padding: 0px 10px;
+    height: 30px;
+    width: 180px;
+}
+
+.header .btn-grp .search-input input:focus {
+    outline: none;
+}
+
