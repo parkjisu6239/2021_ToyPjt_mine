@@ -1,0 +1,35 @@
+.reward { 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+}
+
+.reward .reward-header {
+    background-color: rgb(46, 37, 175);
+    color: white;
+    width: 100%;
+}
+
+.reward section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.reward .reward-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.reward .reward-list section img {
+    height: 80px;
+}
+
+@media (max-width: 1279px) {
+    .reward .reward-list {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
