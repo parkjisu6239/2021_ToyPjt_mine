@@ -1,0 +1,54 @@
+html {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    background-color: #F5F5FC;
+}
+
+#app {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.menu-bar {
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+    margin: 30px;
+}
+
+.content {
+    display: flex;
+    height: 100%;
+    widows: 100%;
+    gap: 20px;
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 80px;
+}
+
+.corrent {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.right-bar {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    min-width: 350px;
+}
+

@@ -1,26 +1,35 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <MenuBar/>
+    <div class="main-container">
+      <Header/>
+      <div class="content">
+        <div class="corrent">
+          <router-view/>
+        </div>
+        <RightBar/>
+      </div>
+    </div>
+  </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MenuBar from '@/views/menu-bar/menu-bar'
+import Header from '@/views/header/header'
+import RightBar from '@/views/right-bar/right-bar'
 
-export default {
-  name: 'App',
+export default ({
+  
   components: {
-    HelloWorld
-  }
-}
-</script>
+    MenuBar,
+    Header,
+    RightBar
+  },
 
+  setup() {
+    
+  },
+})
+</script>
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import url('./App.css');
 </style>
