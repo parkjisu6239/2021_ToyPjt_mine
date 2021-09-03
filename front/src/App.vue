@@ -7,7 +7,6 @@
         <div class="corrent">
           <router-view/>
         </div>
-        <RightBar/>
       </div>
     </div>
   </div>
@@ -15,14 +14,12 @@
 <script>
 import MenuBar from '@/views/menu-bar/menu-bar'
 import Header from '@/views/header/header'
-import RightBar from '@/views/right-bar/right-bar'
 
 export default ({
   
   components: {
     MenuBar,
     Header,
-    RightBar
   },
 
   setup() {
