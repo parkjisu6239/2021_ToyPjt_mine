@@ -1,0 +1,43 @@
+.todo-container header{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.todo-container .todo-input-container {
+    display: flex;
+    gap: 5px;
+}
+
+.todo-container .todo-input-container input{
+    width: 100%;
+    border: 1px solid rgb(189, 192, 199);
+    height: 25px;
+    outline: none;
+    border-radius: 8px;
+    padding: 2px 15px;
+}
+
+.todo-container .todo-input-container button{
+    border: 1px solid rgb(134, 170, 236);
+    border-radius: 10px;
+    padding: 0px 8px 0px 10px;
+    background-color: rgb(134, 170, 236);
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.todo-container .todo-input-container button:hover{
+    background-color: rgb(112, 146, 209);
+    border: 1px solid rgb(100, 134, 197);
+}
+
+.finished-task {
+    color: rgb(194, 194, 194);
+    text-decoration: line-through;
+}
+
+.todo-container .todo-list .todo-element{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
