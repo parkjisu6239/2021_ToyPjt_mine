@@ -1,5 +1,12 @@
 # mine
 
+- todolist
+- calender
+- reward
+- record
+
+
+
 ## Project setup
 ```
 npm install
