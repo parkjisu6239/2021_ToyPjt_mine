@@ -26,6 +26,9 @@ export default {
         })
 
         const addTodoList = () => {
+            if (!state.msg.trim()) {
+                return
+            }
             const todo = {
                 name: state.msg,
                 isFinished: false
